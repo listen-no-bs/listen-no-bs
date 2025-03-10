@@ -1,14 +1,27 @@
 ---
-title: Get in touch
+title: Contact
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Need to get in touch? Here's how.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+# **Get in Touch**  
+Got a question? Need something that’s **not covered in the [FAQ](/faq)**? Reach out below.  
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+## **📧 Email**  
+The best way to contact me is via email:  
+👉 **[talk@ListenNoBS.com](mailto:talk@ListenNoBS.com)**  
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+- **Booking questions?** Check the [Booking Page](/book) first.  
+- **Need to vent?** Just **book a session**—no need to email me first.  
+- **Something else?** If it’s relevant, I’ll reply.  
+
+
+## **❌ Do NOT Contact Me For…**  
+🚫 **Therapy or mental health advice** (I’m not a therapist.)  
+🚫 **Refunds** (See the [Terms of Service](/terms).)  
+🚫 **"Collabs," sponsorships, or promo requests** (Not interested.)  
+
+
+🔥 **Need to talk? Skip the emails and just book a session.**  
+👉 **[Book Now](https://calendly.com/listen-no-bs/30min)**  

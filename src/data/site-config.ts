@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Listen No BS',
+    subtitle: 'No Judgment. No Fixing. Just Listening.',
+    description: 'A no-BS listening service for when you need to vent. $100 upfront, no refunds unless I die mid-session.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Listen No BS - Vent without judgment'
     },
     headerNavLinks: [
         {
@@ -51,67 +51,63 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Book A Session',
+            href: '/book'
         },
         {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
+            text: 'FAQ',
+            href: '/faq'
         },
         {
             text: 'Contact',
             href: '/contact'
         },
         {
-            text: 'Terms',
+            text: 'Blog',
+            href: '/blog'
+        },
+    ],
+    footerNavLinks: [
+        {
+            text: 'Terms of Service',
             href: '/terms'
         },
         {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Privacy Policy',
+            href: '/privacy'
+        },
+        {
+            text: 'Book a Session',
+            href: '/book'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Twitter/X',
+            href: 'https://twitter.com/listennobs'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'GitHub',
+            href: 'https://github.com/listen-no-bs'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Need to Vent? I Actually Listen. No BS.',
+        text: "Life is messy. People suck. Work is a joke. Maybe you just need to talk to someone who won't interrupt, judge, or try to 'fix' you. That's where I come in. **$100 upfront, no refunds unless I die mid-session.** Book a session, say whatever you need, and I’ll actually hear you out.",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Person talking to someone who actually listens'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Book a Session',
+                href: '/book'
             }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'No Newsletter. Just No BS.',
+        text: 'Not selling you anything. Just book if you need to talk.',
         formUrl: '#'
     },
     postsPerPage: 8,

@@ -46,4 +46,4 @@ Payments are handled through **Stripe or PayPal** at the time of booking.
 ## **Ready to Talk?**
 👉 **[Book Now](https://calendly.com/listen-no-bs/30min)**  
 
-🔥 **Let it all out. I’ll listen. No BS.**
+🔥 **Let it all out. I'll listen. No BS.**

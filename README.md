@@ -1,6 +1,6 @@
 # Need to vent? $100 I actually listen. No BS.
 
-Life is messy. People suck. Work is a joke. Maybe you just need to talk to someone who won’t interrupt, judge, or try to "fix" you. That’s where I come in. 
+Life is messy. People suck. Work is a joke. Maybe you just need to talk to someone who won't interrupt, judge, or try to "fix" you. That's where I come in. 
 
 💬 **$100 upfront. Only refund? If I die mid-session.**  
 🖥️ **Virtual only – [Book a session now](http://listennobs.com).**  
@@ -16,9 +16,9 @@ Life is messy. People suck. Work is a joke. Maybe you just need to talk to someo
 ---
 
 ## Why This?
-✔ **No fake positivity** – I won’t tell you to “just be happy.”  
-✔ **No interruptions** – You talk, I listen. That’s it.  
-✔ **No therapy BS** – I’m not here to diagnose you, just to hear you out.  
+✔ **No fake positivity** – I won't tell you to “just be happy.”  
+✔ **No interruptions** – You talk, I listen. That's it.  
+✔ **No therapy BS** – I'm not here to diagnose you, just to hear you out.  
 
 ---
 

@@ -6,7 +6,7 @@ seo:
 ---
 
 ## **How does this work?**  
-You book a session, pay upfront, and talk. I listen—no judgment, no interruptions, no fake advice. That’s it.  
+You book a session, pay upfront, and talk. I listen—no judgment, no interruptions, no fake advice. That's it.  
 
 ## **How much does it cost?**  
 **$100 per session.** Payment is required upfront via **Stripe or PayPal**.  
@@ -30,10 +30,10 @@ You can **reschedule up to 24 hours before** your session. **No refunds** for ca
 **No.** I do **not** record, save, or share anything discussed in our session.  
 
 ## **What can I talk about?**  
-Anything. Work, relationships, life, people sucking—you name it. Just **don’t confess to crimes or threaten harm**.  
+Anything. Work, relationships, life, people sucking—you name it. Just **don't confess to crimes or threaten harm**.  
 
 ## **What if I just want to vent about something stupid?**  
-That’s fine. **Big problems, small problems—doesn’t matter.** If you need to say it, I’ll listen.  
+That's fine. **Big problems, small problems—doesn't matter.** If you need to say it, I'll listen.  
 
 ## **How do I book a session?**  
 Click here to schedule:  

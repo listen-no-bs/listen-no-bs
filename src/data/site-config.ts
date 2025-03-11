@@ -93,7 +93,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Need to Vent? I Actually Listen. No BS.',
-        text: "Life is messy. People suck. Work is a joke. Maybe you just need to talk to someone who won't interrupt, judge, or try to 'fix' you. That's where I come in. **$100 upfront, no refunds unless I die mid-session.** Book a session, say whatever you need, and I’ll actually hear you out.",
+        text: "Life is messy. People suck. Work is a joke. Maybe you just need to talk to someone who won't interrupt, judge, or try to 'fix' you. That's where I come in. **$100 upfront, no refunds unless I die mid-session.** Book a session, say whatever you need, and I'll actually hear you out.",
         image: {
             src: '/hero.jpeg',
             alt: 'Person talking to someone who actually listens'
@@ -106,8 +106,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'No Newsletter. Just No BS.',
-        text: 'Not selling you anything. Just book if you need to talk.',
+        title: 'Not Really a Newsletter. Just No BS.',
+        text: 'No spam. No fake positivity. Just occasional posts. Just book if you need to talk.',
         formUrl: 'https://magic.beehiiv.com/v1/bb3c46da-a5a5-440c-b95e-b2685a2c8eae?email='
     },
     postsPerPage: 8,

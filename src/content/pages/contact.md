@@ -6,7 +6,7 @@ seo:
 ---
 
 # **Get in Touch**  
-Got a question? Need something that’s **not covered in the [FAQ](/faq)**? Reach out below.  
+Got a question? Need something that's **not covered in the [FAQ](/faq)**? Reach out below.  
 
 ## **📧 Email**  
 The best way to contact me is via email:  
@@ -14,11 +14,11 @@ The best way to contact me is via email:
 
 - **Booking questions?** Check the [Booking Page](/book) first.  
 - **Need to vent?** Just **book a session**—no need to email me first.  
-- **Something else?** If it’s relevant, I’ll reply.  
+- **Something else?** If it's relevant, I'll reply.  
 
 
 ## **❌ Do NOT Contact Me For…**  
-🚫 **Therapy or mental health advice** (I’m not a therapist.)  
+🚫 **Therapy or mental health advice** (I'm not a therapist.)  
 🚫 **Refunds** (See the [Terms of Service](/terms).)  
 🚫 **"Collabs," sponsorships, or promo requests** (Not interested.)  
 

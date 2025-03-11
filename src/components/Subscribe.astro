@@ -18,7 +18,7 @@ const { class: className } = Astro.props;
             {subscribe.text && <p class="w-full max-w-xl mb-8 text-sm leading-normal">{subscribe.text}</p>}
             <form
                 action={subscribe.formUrl}
-                method="post"
+                method="get"
                 id="subscribe-form"
                 name="subscribe-form"
                 class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-row"

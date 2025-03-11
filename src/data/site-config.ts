@@ -108,7 +108,7 @@ const siteConfig: SiteConfig = {
     subscribe: {
         title: 'No Newsletter. Just No BS.',
         text: 'Not selling you anything. Just book if you need to talk.',
-        formUrl: '#'
+        formUrl: 'https://magic.beehiiv.com/v1/bb3c46da-a5a5-440c-b95e-b2685a2c8eae?email='
     },
     postsPerPage: 8,
     projectsPerPage: 8

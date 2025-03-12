@@ -42,7 +42,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'No Judgment. No Fixing. Just Listening.',
     description: 'A no-BS listening service for when you need to vent. $100 upfront, no refunds unless I die mid-session.',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/listen-preview.png',
         alt: 'Listen No BS - Vent without judgment'
     },
     headerNavLinks: [

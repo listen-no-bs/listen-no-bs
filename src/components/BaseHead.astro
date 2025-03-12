@@ -70,3 +70,13 @@ function formatCanonicalURL(url: string | URL) {
 <meta property="twitter:description" content={description} />
 {resolvedImage?.src && <meta property="twitter:image" content={resolvedImage.src} />}
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
+<!-- Plausible Analytics -->
+
+<script defer data-domain="listennobs.com" src="https://plausible.io/js/script.outbound-links.js"></script>
+<script>
+    window.plausible =
+        window.plausible ||
+        function (...args) {
+            (window.plausible!.q = window.plausible!.q || []).push(args);
+        };
+</script>

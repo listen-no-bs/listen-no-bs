@@ -22,16 +22,13 @@ const resolvedImage = image?.src
 const canonicalURL = new URL(Astro.request.url, Astro.site);
 canonicalURL.protocol = 'https:'; // Ensure HTTPS
 const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": title,
-  "url": formatCanonicalURL(canonicalURL),
-  "description": description,
-  "image": resolvedImage?.src,
-  "sameAs": [
-    "https://twitter.com/listennobs",
-    "https://www.instagram.com/listennobs"
-  ]
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: title,
+    url: formatCanonicalURL(canonicalURL),
+    description: description,
+    image: resolvedImage?.src,
+    sameAs: ['https://twitter.com/listennobs', 'https://www.instagram.com/listennobs']
 };
 const jsonLDString = JSON.stringify(structuredData);
 
@@ -86,9 +83,7 @@ function formatCanonicalURL(url: string | URL) {
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
 
 <!-- JSON-LD Structured Data -->
-<script is:inline type="application/ld+json">
-    {jsonLDString}
-</script>
+<script is:inline type="application/ld+json" set:html={jsonLDString} />
 
 <!-- Plausible Analytics -->
 <script defer data-domain="listennobs.com" src="https://plausible.io/js/script.outbound-links.js"></script>

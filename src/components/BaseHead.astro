@@ -71,8 +71,24 @@ function formatCanonicalURL(url: string | URL) {
 <meta property="twitter:description" content={description} />
 {resolvedImage?.src && <meta property="twitter:image" content={resolvedImage.src} />}
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
-<!-- Plausible Analytics -->
 
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+    {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": title,
+        "url": formatCanonicalURL(canonicalURL),
+        "description": description,
+        "image": resolvedImage?.src,
+        "sameAs": [
+            "https://twitter.com/listennobs",
+            "https://www.instagram.com/listennobs"
+        ]
+    })}
+</script>
+
+<!-- Plausible Analytics -->
 <script defer data-domain="listennobs.com" src="https://plausible.io/js/script.outbound-links.js"></script>
 <script>
     window.plausible =

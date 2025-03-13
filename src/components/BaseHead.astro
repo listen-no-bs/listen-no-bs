@@ -15,11 +15,12 @@ const { description = '', image = siteConfig.image, pageType = 'website' } = Ast
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
 const resolvedImage = image?.src
     ? {
-          src: new URL(image.src, Astro.site).toString(),
+          src: new URL(image.src, Astro.site).toString().replace(/^http:/, 'https:'),
           alt: image.alt
       }
     : undefined;
 const canonicalURL = new URL(Astro.request.url, Astro.site);
+canonicalURL.protocol = 'https:'; // Ensure HTTPS
 
 /**
  * Enforce some standard canonical URL formatting across the site.

@@ -21,6 +21,19 @@ const resolvedImage = image?.src
     : undefined;
 const canonicalURL = new URL(Astro.request.url, Astro.site);
 canonicalURL.protocol = 'https:'; // Ensure HTTPS
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": title,
+  "url": formatCanonicalURL(canonicalURL),
+  "description": description,
+  "image": resolvedImage?.src,
+  "sameAs": [
+    "https://twitter.com/listennobs",
+    "https://www.instagram.com/listennobs"
+  ]
+};
+const jsonLDString = JSON.stringify(structuredData);
 
 /**
  * Enforce some standard canonical URL formatting across the site.
@@ -74,18 +87,7 @@ function formatCanonicalURL(url: string | URL) {
 
 <!-- JSON-LD Structured Data -->
 <script is:inline type="application/ld+json">
-    {JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": title,
-        "url": formatCanonicalURL(canonicalURL),
-        "description": description,
-        "image": resolvedImage?.src,
-        "sameAs": [
-            "https://twitter.com/listennobs",
-            "https://www.instagram.com/listennobs"
-        ]
-    })}
+    {jsonLDString}
 </script>
 
 <!-- Plausible Analytics -->

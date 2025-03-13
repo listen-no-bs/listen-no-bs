@@ -73,7 +73,7 @@ function formatCanonicalURL(url: string | URL) {
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
 
 <!-- JSON-LD Structured Data -->
-<script type="application/ld+json">
+<script is:inline type="application/ld+json">
     {JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
